@@ -1,0 +1,19 @@
+
+/* 这里是设置一个全局透明度，不然不太协调，可以根据自己的喜好修改 */
+:root {
+    --card-bg: rgba(255, 255, 255, 0);
+}
+
+[data-theme='dark'] #web_bg {
+  background: url('https://www.helloimg.com/i/2026/01/25/6975a9b33d491.png');
+  background-size: cover;
+}
+
+/* 适配手机模式 */
+
+@media (max-width: 768px) {
+[data-theme='dark'] #web_bg {
+    background: url('https://www.helloimg.com/i/2026/01/25/6975a9b33d491.png');
+    background-size: cover;
+  }
+}
